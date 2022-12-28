@@ -29,6 +29,14 @@ threads at same time, so it causes RC.**_
 **_To solve the problem we just simply have to create a key of any Object type put
 the code that causes RC in synchronized block.   
 Now the output is correct and as expected Value is = 100000._**
+3. In [Sample](src/main/java/deadlock/Sample.java) class, I have three instance methods,
+    keep(), take() and eat(), and two keys key1, key2 are used for synchronization.
+   In [DinnersEating](src/main/java/deadlock/DinnersEating.java) class, two runnable methods
+    are created calling keep() and take() respectively, _**Now the problem occurs when T1 executes
+    the keep() method and calls take() inside, T2 calls eat() but key1 is not free and hence both
+    threads are blocked. So it will keep running and now thread will get access to method as one
+    is already running, causing Deadlock.**_
+    
 
 
    
