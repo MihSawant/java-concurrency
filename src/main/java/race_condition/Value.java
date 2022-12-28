@@ -6,7 +6,7 @@ public class Value{
         this.num = num;
     }
 
-    public void incrementValue(){
+    public synchronized void incrementValue(){
        num = num + 1;
     }
     public int getValue(){
