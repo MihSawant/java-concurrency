@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2131362-fb9e-4633-8fec-20432dd73037" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/printer/PrintJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/printer/PrintJobs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrintJobs">
+  <component name="RunManager" selected="Application.FalseSharing">
     <configuration name="DinnersEating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deadlock.DinnersEating" />
       <module name="java-concurrency" />
@@ -67,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creating_runnable.FirstRunnable" />
+    <configuration name="FalseSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cache_problem.FalseSharing" />
       <module name="java-concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creating_runnable.*" />
+          <option name="PATTERN" value="cache_problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FalseSharing" />
         <item itemvalue="Application.PrintJobs" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.DinnersEating" />
         <item itemvalue="Application.RaceCondition" />
-        <item itemvalue="Application.FirstRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672227645977</updated>
       <workItem from="1672227647064" duration="10195000" />
-      <workItem from="1672251742308" duration="7995000" />
+      <workItem from="1672251742308" duration="11003000" />
     </task>
     <servers />
   </component>
