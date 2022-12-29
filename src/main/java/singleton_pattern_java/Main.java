@@ -1,4 +1,4 @@
-package singleton_non_concurrent;
+package singleton_pattern_java;
 
 import java.util.Arrays;
 

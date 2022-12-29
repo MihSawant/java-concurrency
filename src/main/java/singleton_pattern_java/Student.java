@@ -1,4 +1,4 @@
-package singleton_non_concurrent;
+package singleton_pattern_java;
 
 public class Student {
 
@@ -9,7 +9,7 @@ public class Student {
         this.name = name;
     };
 
-   public static Student[] getStudents(){
+   public static synchronized Student[] getStudents(){
        if(students == null){
            createArrayOfStudents();
        }
