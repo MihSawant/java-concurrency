@@ -52,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProducerConsumer">
+  <component name="RunManager" selected="Application.PrintJobs">
     <configuration name="DinnersEating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deadlock.DinnersEating" />
       <module name="java-concurrency" />
@@ -72,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creating_runnable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintJobs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="printer.PrintJobs" />
+      <module name="java-concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintJobs" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.DinnersEating" />
         <item itemvalue="Application.RaceCondition" />
@@ -123,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672227645977</updated>
       <workItem from="1672227647064" duration="10195000" />
-      <workItem from="1672251742308" duration="4324000" />
+      <workItem from="1672251742308" duration="6680000" />
     </task>
     <servers />
   </component>
