@@ -78,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton_non_concurrent.Main" />
+      <option name="MAIN_CLASS_NAME" value="singleton_pattern_java.Main" />
       <module name="java-concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton_non_concurrent.*" />
+          <option name="PATTERN" value="singleton_pattern_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -9,7 +9,7 @@ public class Student {
         this.name = name;
     };
 
-   public static synchronized Student[] getStudents(){
+   public static  Student[] getStudents(){
        if(students == null){
            createArrayOfStudents();
        }
