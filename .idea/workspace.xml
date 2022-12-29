@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2131362-fb9e-4633-8fec-20432dd73037" name="Changes" comment="" />
+    <list default="true" id="a2131362-fb9e-4633-8fec-20432dd73037" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,20 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="DinnersEating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.DinnersEating" />
-      <module name="java-concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RaceCondition">
     <configuration name="FalseSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cache_problem.FalseSharing" />
       <module name="java-concurrency" />
@@ -116,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="race_condition.RaceCondition" />
+      <module name="java-concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="race_condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceCondition" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FalseSharing" />
         <item itemvalue="Application.PrintJobs" />
         <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.DinnersEating" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672227645977</updated>
       <workItem from="1672227647064" duration="10195000" />
-      <workItem from="1672251742308" duration="13666000" />
+      <workItem from="1672251742308" duration="15037000" />
     </task>
     <servers />
   </component>
