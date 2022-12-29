@@ -19,7 +19,7 @@ public class RaceCondition {
 //       t.join();
 //        System.out.println("Value = "+value.getValue());
 
-        Thread[] threads = new Thread[10000];
+        Thread[] threads = new Thread[100_000];
         for(int i = 0; i < threads.length; i++){
             threads[i] = new Thread(r);
             threads[i].start();
