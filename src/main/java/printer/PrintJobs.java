@@ -38,6 +38,11 @@ public class PrintJobs {
         Runnable r2 = () ->{
             printer.print();
             printer.print();
+//            try {
+//                Thread.sleep(15000);
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
             printer.print();
         };
 
