@@ -13,6 +13,8 @@ public class Value{
         }
     }
     public int getValue(){
-        return num;
+        synchronized (key) {
+            return num;
+        }
     }
 }
